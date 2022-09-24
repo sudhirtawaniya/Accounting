@@ -1,0 +1,22 @@
+.container{
+    
+    display: flex;
+   
+    width: 100%;
+}
+.op{
+    background-color: brown;
+    max-width: 20%;
+    min-width: 15%;
+    height: 100vh;
+   
+}
+.main{
+    display: flex;
+   align-items: center;
+  
+    flex-direction: column;
+  
+   width: 100%;
+
+}
