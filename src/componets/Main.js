@@ -10,7 +10,7 @@ export default function Main(){
         <>
     
      <Routes>
-     <Route exact path="/" element={ <Entry/>}></Route>
+     <Route  path="/" element={ <Entry/>}></Route>
         <Route exact path="/Entry" element={ <Entry/>}></Route>
         <Route exact path="/ADD" element={ <ADD/>}></Route>
         <Route exact path="/Party" element={ <Party/>}></Route>

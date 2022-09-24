@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import Body from './componets/body';
 
@@ -7,9 +7,9 @@ function App() {
  
   return (
    <>
-   <BrowserRouter>
+   <HashRouter base="/">
 <Body />
-</BrowserRouter>
+</HashRouter>
    </>
   );
 }
