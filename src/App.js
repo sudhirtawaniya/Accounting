@@ -7,7 +7,7 @@ function App() {
  
   return (
    <>
-   <BrowserRouter basename='/Accounting/'>
+   <BrowserRouter basename='/'>
 <Body />
 </BrowserRouter>
    </>
